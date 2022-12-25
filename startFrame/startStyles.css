@@ -1,0 +1,64 @@
+body {
+    background-color: #5396d5;
+}
+
+.getStarted {
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    border-radius: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.imageContainer {
+    float: left;
+    display: flex;
+    background-color: #eeeeee;
+    width: 360px;
+    height: 460px;
+    border-radius: 16px;
+    margin: 20px 20px;
+}
+
+.buttonContainer {
+    float: right;
+    background-color: white;
+    width: 360px;
+    height: 460px;
+    border-radius: 16px;
+    margin: 20px 20px;
+}
+
+button {
+    background-color: #5396d5;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 0;
+    border-radius: 25px;
+    font-size: 15px;
+    position: relative;
+    top: 200px;
+    left: 80px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #25649f;
+    scale: 105%;
+}
+
+section {
+    color: black;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    top: 90px;
+}

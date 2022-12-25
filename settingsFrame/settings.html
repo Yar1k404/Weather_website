@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="settings.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="settingsContainer">
+
+    <ul>
+        <a href="../mainFrame/main.html">
+            <li><span class="material-symbols-outlined">clear_day</span></li>
+        </a>
+        <li class="active"><span class="material-symbols-outlined">tune</span></li>
+    </ul>
+
+    <div class="searchBar">
+        <input id="cityInput" type="text" placeholder="Search for cities">
+    </div>
+
+    <p class="paragraphHeader">General</p>
+    <div class="switchBlock">
+        <p>12-Hour Time</p>
+        <div class="switch__container">
+            <input id="switch" class="switch switch--shadow" type="checkbox">
+            <label for="switch"></label>
+        </div>
+    </div>
+
+    <p class="paragraphHeader">Units</p>
+    <div class="unitsBlock">
+        <p>Temperature</p>
+        <label class="switchTemperature">
+            <input type="checkbox" id="switchTemperature">
+            <div class="slider round">
+                <span class="on">Celsius</span>
+                <span class="off">Fahrenheit</span>
+            </div>
+        </label>
+    </div>
+
+    <div class="advancedBlock">
+        <h2>Advanced</h2>
+
+        <hr width="220px">
+
+        <h5>Get new experience</h5>
+        <span>-More weather information</span>
+        <br>
+        <span>-Health activities overview</span>
+        <br>
+        <span>-Weather notification</span>
+
+        <hr width="220px">
+
+        <div class="priceBlock">
+            <h2>$5,99 <span>/month</span></h2>
+        </div>
+
+        <button class="signInBtn">Sign up</button>
+    </div>
+
+</div>
+
+
+
+
+<script src="settings.js"></script>
+</body>
+</html>

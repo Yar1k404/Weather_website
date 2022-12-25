@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+    background-color: #5396d5;
+    margin: 0;
+}
+
+.mainContainer {
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    border-radius: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.searchBar {
+    position: relative;
+    top: 17px;
+    left: 90px;
+    width: 400px;
+    height: 38px;
+    border-radius: 13px;
+    background-color: #eeeeee;
+}
+
+input {
+    position: relative;
+    left: 20px;
+    width: 370px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: #eeeeee;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    position: fixed;
+    height: 470px;
+    width: 50px;
+    background: #eee;
+    border-radius: 13px;
+    margin: 15px 20px;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px 0 10px 0px;
+    transform: translateY(55px);
+    text-align: center;
+    cursor: pointer;
+    color: black;
+}
+
+li.active {
+    background: #cbcbcb;
+}
+
+#cityInformation {
+    position: relative;
+    top: 27px;
+    left: 90px;
+    width: 400px;
+    height: 150px;
+    border-radius: 13px;
+}
+
+#cityName {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+#imgBlock {
+    position: relative;
+    left: 240px;
+    top: -110px;
+    width: 120px;
+    height: 120px;
+}
+
+#temperatureBlock {
+    position: relative;
+    left: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#localTime {
+    position: relative;
+    color: #b4b2b2;
+    font-size: 12px;
+    left: 20px;
+}
+
+.weatherInformation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    left: 90px;
+    width: 400px;
+    height: 280px;
+    border-radius: 13px;
+}
+
+.feelsLike {
+    width: 195px;
+    height: 70px;
+    border-radius: 13px;
+    background-color: #eeeeee;
+}
+
+.pressure {
+    margin-top: 5px;
+    width: 195px;
+    height: 70px;
+    border-radius: 13px;
+    background-color: #eeeeee;
+}
+
+.windSpeed {
+    margin-top: 5px;
+    width: 195px;
+    height: 70px;
+    border-radius: 13px;
+    background-color: #eeeeee;
+}
+
+.humidity {
+    width: 195px;
+    height: 70px;
+    border-radius: 13px;
+    background-color: #eeeeee;
+}
+
+.visibility {
+    margin-top: 5px;
+    width: 195px;
+    height: 70px;
+    border-radius: 13px;
+    background-color: #eeeeee;
+}
+
+.chanceOfRain {
+    margin-top: 5px;
+    width: 195px;
+    height: 70px;
+    border-radius: 13px;
+    background-color: #eeeeee;
+}
+
+.weatherInformation > div > img {
+    width: 15px;
+    height: 15px;
+    margin: 10px 20px;
+    position: relative;
+}
+
+.weatherInformation > div > p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 800;
+    color: #4b4b4b;
+    position: relative;
+    top: -47px;
+    left: 45px;
+}
+
+.weatherInformation > div > span {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    position: relative;
+    top: -55px;
+    left: 45px;
+}
+
+.advancedBlock {
+    width: 270px;
+    height: 360px;
+    background-color: #eeeeee;
+    border-radius: 16px;
+    position: relative;
+    left: 505px;
+    top: -420px;
+}
+
+.advancedBlock > h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 800;
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+
+.advancedBlock > h5 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 800;
+    position: relative;
+    top: 0;
+    left: 25px;
+}
+
+.advancedBlock > span {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #b4b2b2;
+    font-size: 13px;
+    position: relative;
+    top: -15px;
+    left: 25px;
+}
+
+.priceBlock {
+    width: 230px;
+    height: 50px;
+    background-color: #c2c2c2;
+    border-radius: 16px;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    top: -10px;
+}
+
+.priceBlock > h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+}
+
+.priceBlock > h2 > span {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 13px;
+}
+
+.signInBtn {
+    background-color: #5396d5;
+    color: white;
+    width: 230px;
+    height: 30px;
+    border: 0;
+    border-radius: 25px;
+    font-size: 12px;
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+}
+
+.signInBtn:hover {
+    background-color: #25649f;
+    scale: 105%;
+}
